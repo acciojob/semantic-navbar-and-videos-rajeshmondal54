@@ -2,15 +2,18 @@ nav {
     background-color: #333;
     overflow: hidden;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 nav ul li {
     flex: 1;
 }
+
 nav ul li a {
     display: block;
     color: white;
@@ -18,17 +21,21 @@ nav ul li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 nav ul li a:hover {
     background-color: #111;
 }
+
 .videos {
     margin-top: 20px;
     text-align: center;
 }
+
 .videos h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .videos video {
     display: block;
     margin: 10px auto;
